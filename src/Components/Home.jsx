@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Home = () => {
+  const img={src:'Images/fruit-and-berries.jpg'}
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetchData();
@@ -23,7 +24,7 @@ const Home = () => {
               <div className="col" key={index}>
                 <div className="card h-100">
                   <img
-                    src="src/Images/Fruits.jpg"
+                    src={img.src}
                     className="card-img-top"
                     alt="..."
                   />

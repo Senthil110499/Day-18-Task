@@ -8,7 +8,7 @@ import Create from './Components/Create';
 
 
 const App = () => {
-  const[id,setId]=useState(0)
+  const [id, setId] = useState(0)
   return (
     <div>
       <BrowserRouter>
