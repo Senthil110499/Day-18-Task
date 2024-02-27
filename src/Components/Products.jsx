@@ -57,8 +57,8 @@ const Products = ({setId}) => {
               })}
             </tbody>
           </table>
-          <button onClick={() => {navigate('/create')}} className='bg-success'>Create</button>
         </div>
+        <button onClick={() => {navigate('/create')}} className='bg-success'>Create</button>
       </div>
     );
 };
