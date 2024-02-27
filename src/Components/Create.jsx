@@ -24,7 +24,7 @@ const Create = () => {
     }
     return (
         <div>
-            <div className="card w-50 " >
+            <div className="card w-50 bg-primary-subtle" >
             <div className="card-body">
             <form onSubmit={handleSubmit}>
                 <div><label>id : <input type='text' name='id' value={createData.id} onChange={handleChange} /></label></div><br/>
