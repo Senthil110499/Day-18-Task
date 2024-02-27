@@ -23,7 +23,7 @@ const Home = () => {
               <div className="col" key={index}>
                 <div className="card h-100">
                   <img
-                    src="src/Images/fruits.jpg"
+                    src="src/Images/Fruits.jpg"
                     className="card-img-top"
                     alt="..."
                   />
